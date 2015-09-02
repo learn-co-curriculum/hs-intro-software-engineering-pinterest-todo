@@ -16,4 +16,6 @@ You'll be coding your solution in `lib/pinterest.rb`
 
 **4.** The best part about pinterest is pinning things, and then looking at the things you've pinned. Let's think about the best way to store the things we've pinned. Should it be an array or a hash? You decide. Just make sure you create a new attribute `my_pins` to store the pins. You'll want this attribute to store either an empty array or hash on initialization.
 
-**5.** We need a `pin_it` method now. That is the main action users take on pinterest. Define a `pin_it` method that adds a pin to a users `my_pins` attribute.
+**5.** We need a `pin_it` method now. That is the main action users take on pinterest. Define a `pin_it` method that adds a pin to a users `my_pins` attribute. This method should accept an argument (the pin you're pinning).
+
+**6.** Now users need to be able to delete pins. Define a `delete_pin` method. This method should accept an argument, which is the pin you want to delete. The methoud should check to make sure you did in fact originally pin that item, and delete it if you did. If you didn't, it should return "You never pinned that pin."
