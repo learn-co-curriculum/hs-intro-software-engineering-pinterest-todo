@@ -19,3 +19,4 @@ You'll be coding your solution in `lib/pinterest.rb`
 **5.** We need a `pin_it` method now. That is the main action users take on pinterest. Define a `pin_it` method that adds a pin to a users `my_pins` attribute. This method should accept an argument (the pin you're pinning).
 
 **6.** Now users need to be able to delete pins. Define a `delete_pin` method. This method should accept an argument, which is the pin you want to delete. The method should check to make sure you did in fact originally pin that item, and delete it if you did. If you didn't, it should return "You never pinned that pin."
+<a href='https://learn.co/lessons/hs-intro-software-engineering-pinterest-todo' data-visibility='hidden'>View this lesson on Learn.co</a>
